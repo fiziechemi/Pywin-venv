@@ -8,7 +8,7 @@ On windows, you need to manually activate python virtualenv environment inside w
 - Virtual environment should be named identical to your working directory to make this script work.
 
 ## Installation
-1. copy .pywin-venv to your user directory open command prompt and enter regedit
-2. go to \HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Command Processor
-3. click Edit->New->Expandable String Value
-4. set Name to AutoRun and Data to the init.bat file path and save
+
+```pwsh
+curl "https://raw.githubusercontent.com/fiziechemi/pywin-venv/master/pywin-venv/install.cmd" -o "%USERPROFILR%\.pywin-venv\install.cmd" & "%USERPROFILR%\.pywin-venv\install.cmd"
+```

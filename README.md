@@ -10,5 +10,5 @@ On windows, you need to manually activate python virtualenv environment inside w
 ## Installation
 
 ```pwsh
-curl "https://raw.githubusercontent.com/fiziechemi/pywin-venv/master/pywin-venv/install.cmd" -o "%USERPROFILR%\.pywin-venv\install.cmd" & "%USERPROFILR%\.pywin-venv\install.cmd"
+curl "https://raw.githubusercontent.com/fiziechemi/pywin-venv/master/pywin-venv/install.cmd" -o "%USERPROFILE%\.pywin-venv\install.cmd" & "%USERPROFILE%\.pywin-venv\install.cmd"
 ```

@@ -43,4 +43,4 @@ if not %ERRORLEVEL% EQU 0 (
 
 :end
 
-start /b del %USERPROFILE%\.pywin-venv\install.cmd
+start /b del %USERPROFILE%\install.cmd

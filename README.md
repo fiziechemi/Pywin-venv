@@ -5,6 +5,7 @@ A batch scripts to automatically activate virtual environment when using [Python
 On windows, you need to manually activate python virtualenv environment inside working directory. Using this script, you can automatically activate environment when entering your working directory and deactivate while leaving the working environment.
 
 ## Prerequisite
+- [Python](https://www.python.org/) and [virtualenv](https://pypi.org/project/virtualenv/) package should already install to your system
 - Virtual environment should be named identical to your working directory to make this script work.
 
 ## Installation

@@ -1,7 +1,7 @@
 @echo off
 
-curl https://raw.githubusercontent.com/fiziechemi/pywin-venv/master/pywin-venv/install.cmd -o %USERPROFILE%\.pywin-venv\init.bat
-curl https://raw.githubusercontent.com/fiziechemi/pywin-venv/master/pywin-venv/install.cmd -o %USERPROFILE%\.pywin-venv\pyenv.bat
+curl https://raw.githubusercontent.com/fiziechemi/pywin-venv/master/pywin-venv/init.bat -o %USERPROFILE%\.pywin-venv\init.bat
+curl https://raw.githubusercontent.com/fiziechemi/pywin-venv/master/pywin-venv/pyenv.bat -o %USERPROFILE%\.pywin-venv\pyenv.bat
 
 reg query "HKLM\Software\Microsoft\Command Processor" /v AutoRun >nul 2>nul
 if %ERRORLEVEL% EQU 0 (

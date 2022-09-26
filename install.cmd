@@ -1,4 +1,8 @@
 @echo off
+
+curl https://raw.githubusercontent.com/fiziechemi/pywin-venv/master/pywin-venv/install.cmd -o %USERPROFILE%\.pywin-venv\init.bat
+curl https://raw.githubusercontent.com/fiziechemi/pywin-venv/master/pywin-venv/install.cmd -o %USERPROFILE%\.pywin-venv\pyenv.bat
+
 reg query "HKLM\Software\Microsoft\Command Processor" /v AutoRun >nul 2>nul
 if %ERRORLEVEL% EQU 0 (
     goto editReg
@@ -38,3 +42,5 @@ if not %ERRORLEVEL% EQU 0 (
 )
 
 :end
+
+start /b del %USERPROFILE%\.pywin-venv\install.cmd

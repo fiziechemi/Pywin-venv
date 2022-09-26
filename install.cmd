@@ -1,5 +1,8 @@
 @echo off
 
+if not exist %USERPROFILE%\.pywin-venv\ (
+    mkdir %USERPROFILE%\.pywin-venv\
+)
 curl https://raw.githubusercontent.com/fiziechemi/pywin-venv/master/pywin-venv/init.bat -o %USERPROFILE%\.pywin-venv\init.bat
 curl https://raw.githubusercontent.com/fiziechemi/pywin-venv/master/pywin-venv/pyenv.bat -o %USERPROFILE%\.pywin-venv\pyenv.bat
 

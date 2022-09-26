@@ -8,7 +8,7 @@ On windows, you need to manually activate python virtualenv environment inside w
 - Virtual environment should be named identical to your working directory to make this script work.
 
 ## Installation
-
+The installation of pywin-venv is super easy. Just run the following installation command as administrator in a Command Prompt terminal:
 ```pwsh
 curl "https://raw.githubusercontent.com/fiziechemi/pywin-venv/master/install.cmd" -o "%USERPROFILE%\install.cmd" & "%USERPROFILE%\install.cmd"
 ```
